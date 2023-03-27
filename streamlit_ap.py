@@ -37,7 +37,7 @@ try:
     streamlit.dataframe(fruityvice_normalized)
     
 except URLError as e:
-      stremlit.error()
+      streamlit.error()
 
   import snowflake.connector
 
