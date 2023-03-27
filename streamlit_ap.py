@@ -45,4 +45,4 @@ streamlit.dataframe(my_data_rows)
 
 my_cur.execute("What fruit would you like to add?")
 my_data_rows = my_cur.fetchall()
-streamlit.text("The user entered", fruit_choice)
+streamlit.write("Add my fruit")
